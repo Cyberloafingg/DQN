@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e2Detector id="e2Detector_E2TL_0" length="250.00" lane="E2TL_0" pos="250.00" freq="5.00" file="./e2/e2Detector_E2TL_0.xml"/>
+    <e2Detector id="e2Detector_E2TL_1" length="250.00" lane="E2TL_1" pos="250.00" freq="5.00" file="./e2/e2Detector_E2TL_1.xml"/>
+    <e2Detector id="e2Detector_E2TL_2" length="250.00" lane="E2TL_2" pos="250.00" freq="5.00" file="./e2/e2Detector_E2TL_2.xml"/>
+    <e2Detector id="e2Detector_N2TL_0" length="250.00" lane="N2TL_0" pos="250.00" freq="5.00" file="./e2/e2Detector_N2TL_0.xml"/>
+    <e2Detector id="e2Detector_N2TL_1" length="250.00" lane="N2TL_1" pos="250.00" freq="5.00" file="./e2/e2Detector_N2TL_1.xml"/>
+    <e2Detector id="e2Detector_N2TL_2" length="250.00" lane="N2TL_2" pos="250.00" freq="5.00" file="./e2/e2Detector_N2TL_2.xml"/>
+    <e2Detector id="e2Detector_S2TL_0" length="250.00" lane="S2TL_0" pos="250.00" freq="5.00" file="./e2/e2Detector_S2TL_0.xml"/>
+    <e2Detector id="e2Detector_S2TL_1" length="250.00" lane="S2TL_1" pos="250.00" freq="5.00" file="./e2/e2Detector_S2TL_1.xml"/>
+    <e2Detector id="e2Detector_S2TL_2" length="250.00" lane="S2TL_2" pos="250.00" freq="5.00" file="./e2/e2Detector_S2TL_2.xml"/>
+    <e2Detector id="e2Detector_W2TL_0" length="250.00" lane="W2TL_0" pos="250.00" freq="5.00" file="./e2/e2Detector_W2TL_0.xml"/>
+    <e2Detector id="e2Detector_W2TL_1" length="250.00" lane="W2TL_1" pos="250.00" freq="5.00" file="./e2/e2Detector_W2TL_1.xml"/>
+    <e2Detector id="e2Detector_W2TL_2" length="250.00" lane="W2TL_2" pos="250.00" freq="5.00" file="./e2/e2Detector_W2TL_2.xml"/>
+</additional>
