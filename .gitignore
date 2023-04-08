@@ -102,3 +102,17 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+TLCS/GeneratorTest/e2/
+TLCS/GeneratorTest/e2/e2Detector_W2TL_2.xml
+TLCS/GeneratorTest/e2/e2Detector_W2TL_1.xml
+TLCS/GeneratorTest/e2/e2Detector_W2TL_0.xml
+TLCS/GeneratorTest/e2/e2Detector_S2TL_2.xml
+TLCS/GeneratorTest/e2/e2Detector_S2TL_1.xml
+TLCS/GeneratorTest/e2/e2Detector_S2TL_0.xml
+TLCS/GeneratorTest/e2/e2Detector_N2TL_2.xml
+TLCS/GeneratorTest/e2/e2Detector_N2TL_1.xml
+TLCS/GeneratorTest/e2/e2Detector_N2TL_0.xml
+TLCS/GeneratorTest/e2/e2Detector_E2TL_2.xml
+TLCS/GeneratorTest/e2/e2Detector_E2TL_1.xml
+TLCS/GeneratorTest/e2/e2Detector_E2TL_0.xml
+TLCS/GeneratorTest/episode_routes.rou.xml

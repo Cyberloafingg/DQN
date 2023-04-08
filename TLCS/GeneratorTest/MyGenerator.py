@@ -35,7 +35,7 @@ class TrafficGenerator:
         with open(f"episode_routes.rou.xml", "w") as routes:
             print("""<?xml version="1.0" encoding="UTF-8"?>
             <routes>
-            <vType accel="2.6" decel="4.5" id="standard_car" length="5.0" minGap="0.5" maxSpeed="25" sigma="0.5" />
+            <vType accel="2.5" decel="4.5" id="standard_car" length="5.0" minGap="0.5" maxSpeed="25" sigma="0.5" />
 
             <route id="W_N" edges="W2TL TL2N"/>
             <route id="W_E" edges="W2TL TL2E"/>

@@ -72,7 +72,7 @@ class simulation:
             # print(f'phase_action:{phase_action},yellow_action:{yellow_action}')
             if self._step != 0 and last_phase_action != phase_action :
                 # 要更换相位
-                self.set_yellow(phase_action, yellow_action)
+                self.set_yellow(last_phase_action, yellow_action)
             # 设置绿灯相位
             self.set_green(phase_action)
 
@@ -168,7 +168,7 @@ class simulation:
     def set_green(self, phase):
         green_phase_code = phase * 2
         traci.trafficlight.setPhase("TL", green_phase_code)
-        self.simulate_step(8)
+        self.simulate_step(10)
 
     def simulate_step(self, step):
         if (self._step + step > self._max_steps):
@@ -215,14 +215,12 @@ total_episode = 150
 batch_size = 200
 train_epochs = 500
 gamma = 0.9
-max_steps, n_cars_generated = 5400, 1000
+max_steps, n_cars_generated = 3600, 1000
 traffic_generator = TrafficGenerator(max_steps, n_cars_generated)
 model = DQNModel()
 memory = Memory(600, 30000)
-sumo_cmd = set_sumo(gui=True, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
+sumo_cmd = set_sumo(gui=False, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
 simulation = simulation(model, memory, sumo_cmd, max_steps, traffic_generator, train_epochs, batch_size, gamma,'cuda')
-
-
 
 
 for episode in range(1, total_episode):
