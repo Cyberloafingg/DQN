@@ -53,13 +53,13 @@ class TrafficGenerator:
             for car_counter, step in enumerate(car_gen_steps):
                 straight_or_turn = np.random.uniform()
                 # route为路线，depart为出发时间，departLane为出发车道，departSpeed为出发速度
-                if straight_or_turn < 0.6:  #0.6的概率是直行
+                if straight_or_turn < 0.5:  #0.6的概率是直行
                     route_straight = np.random.randint(0, 4)
                     for i in range(4):
                         if route_straight == i:
                             print(f"    <vehicle id=\"{straight_line[i]}_{car_counter}\" type=\"standard_car\" route=\"{straight_line[i]}\" depart=\"{step}\" departLane=\"random\" departSpeed=\"10\" />", file=routes)
                 else:  # 0.4的概率是转弯
-                    if straight_or_turn < 0.85:  # 0.25的概率是右转
+                    if straight_or_turn < 0.85:  # 0.35的概率是右转
                         route_turn = np.random.randint(0, 4)
                         for i in range(4):
                             if route_turn == i:

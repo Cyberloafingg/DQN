@@ -21,9 +21,9 @@
     <vehicle id="S_N_4" type="standard_car" route="S_N" depart="107.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_5" type="standard_car" route="N_E" depart="108.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_6" type="standard_car" route="E_N" depart="121.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_7" type="standard_car" route="S_N" depart="126.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_7" type="standard_car" route="S_E" depart="126.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_8" type="standard_car" route="E_N" depart="130.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_9" type="standard_car" route="W_E" depart="141.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_9" type="standard_car" route="W_S" depart="141.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_10" type="standard_car" route="E_W" depart="144.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_11" type="standard_car" route="W_E" depart="156.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_12" type="standard_car" route="E_S" depart="157.0" departLane="random" departSpeed="10" />
@@ -31,7 +31,7 @@
     <vehicle id="W_E_14" type="standard_car" route="W_E" depart="161.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_15" type="standard_car" route="W_E" depart="165.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_16" type="standard_car" route="E_S" depart="168.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_17" type="standard_car" route="S_N" depart="171.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_17" type="standard_car" route="S_E" depart="171.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_18" type="standard_car" route="N_S" depart="181.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_19" type="standard_car" route="N_E" depart="182.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_20" type="standard_car" route="E_S" depart="186.0" departLane="random" departSpeed="10" />
@@ -59,7 +59,7 @@
     <vehicle id="E_W_42" type="standard_car" route="E_W" depart="269.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_43" type="standard_car" route="E_W" depart="277.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_44" type="standard_car" route="S_W" depart="279.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_45" type="standard_car" route="E_W" depart="279.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_45" type="standard_car" route="N_W" depart="279.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_46" type="standard_car" route="S_N" depart="282.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_47" type="standard_car" route="E_N" depart="284.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_48" type="standard_car" route="S_N" depart="285.0" departLane="random" departSpeed="10" />
@@ -86,13 +86,13 @@
     <vehicle id="S_E_69" type="standard_car" route="S_E" depart="341.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_70" type="standard_car" route="S_W" depart="344.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_71" type="standard_car" route="E_W" depart="347.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_72" type="standard_car" route="N_S" depart="349.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_72" type="standard_car" route="E_N" depart="349.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_73" type="standard_car" route="W_N" depart="349.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_74" type="standard_car" route="N_S" depart="350.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_75" type="standard_car" route="E_W" depart="350.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_76" type="standard_car" route="S_E" depart="352.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_77" type="standard_car" route="S_N" depart="358.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_78" type="standard_car" route="E_W" depart="358.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_77" type="standard_car" route="S_E" depart="358.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_78" type="standard_car" route="N_W" depart="358.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_79" type="standard_car" route="N_S" depart="358.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_80" type="standard_car" route="W_E" depart="359.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_81" type="standard_car" route="N_W" depart="359.0" departLane="random" departSpeed="10" />
@@ -101,23 +101,23 @@
     <vehicle id="N_S_84" type="standard_car" route="N_S" depart="366.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_85" type="standard_car" route="E_W" depart="370.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_86" type="standard_car" route="S_E" depart="375.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_87" type="standard_car" route="W_E" depart="376.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_87" type="standard_car" route="W_S" depart="376.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_88" type="standard_car" route="E_S" depart="381.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_89" type="standard_car" route="E_S" depart="382.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_90" type="standard_car" route="E_W" depart="384.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_91" type="standard_car" route="N_W" depart="385.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_92" type="standard_car" route="S_E" depart="385.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_93" type="standard_car" route="S_N" depart="386.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_94" type="standard_car" route="W_E" depart="391.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_94" type="standard_car" route="W_S" depart="391.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_95" type="standard_car" route="E_W" depart="402.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_96" type="standard_car" route="E_W" depart="403.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_97" type="standard_car" route="S_E" depart="404.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_98" type="standard_car" route="E_W" depart="405.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_98" type="standard_car" route="N_W" depart="405.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_99" type="standard_car" route="N_E" depart="405.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_100" type="standard_car" route="S_N" depart="406.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_101" type="standard_car" route="W_S" depart="411.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_102" type="standard_car" route="N_E" depart="412.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_103" type="standard_car" route="N_S" depart="413.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_103" type="standard_car" route="E_N" depart="413.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_104" type="standard_car" route="E_W" depart="415.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_105" type="standard_car" route="N_E" depart="416.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_106" type="standard_car" route="N_S" depart="417.0" departLane="random" departSpeed="10" />
@@ -132,7 +132,7 @@
     <vehicle id="W_S_115" type="standard_car" route="W_S" depart="425.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_116" type="standard_car" route="S_E" depart="428.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_117" type="standard_car" route="S_E" depart="429.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_118" type="standard_car" route="W_E" depart="430.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_118" type="standard_car" route="W_S" depart="430.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_119" type="standard_car" route="N_S" depart="430.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_120" type="standard_car" route="S_N" depart="437.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_121" type="standard_car" route="E_W" depart="438.0" departLane="random" departSpeed="10" />
@@ -148,7 +148,7 @@
     <vehicle id="N_W_131" type="standard_car" route="N_W" depart="455.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_132" type="standard_car" route="E_S" depart="456.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_133" type="standard_car" route="E_N" depart="456.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_134" type="standard_car" route="E_W" depart="457.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_134" type="standard_car" route="N_W" depart="457.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_135" type="standard_car" route="E_N" depart="459.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_136" type="standard_car" route="E_N" depart="461.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_137" type="standard_car" route="W_N" depart="464.0" departLane="random" departSpeed="10" />
@@ -157,7 +157,7 @@
     <vehicle id="W_S_140" type="standard_car" route="W_S" depart="467.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_141" type="standard_car" route="N_S" depart="467.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_142" type="standard_car" route="W_E" depart="468.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_143" type="standard_car" route="N_S" depart="469.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_143" type="standard_car" route="E_N" depart="469.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_144" type="standard_car" route="N_S" depart="469.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_145" type="standard_car" route="S_N" depart="470.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_146" type="standard_car" route="E_W" depart="470.0" departLane="random" departSpeed="10" />
@@ -173,9 +173,9 @@
     <vehicle id="E_N_156" type="standard_car" route="E_N" depart="493.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_157" type="standard_car" route="E_S" depart="502.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_158" type="standard_car" route="E_W" depart="503.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_159" type="standard_car" route="E_W" depart="507.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_159" type="standard_car" route="N_W" depart="507.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_160" type="standard_car" route="S_N" depart="507.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_161" type="standard_car" route="W_E" depart="508.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_161" type="standard_car" route="W_S" depart="508.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_162" type="standard_car" route="N_E" depart="508.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_163" type="standard_car" route="W_S" depart="518.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_164" type="standard_car" route="S_N" depart="521.0" departLane="random" departSpeed="10" />
@@ -187,7 +187,7 @@
     <vehicle id="W_E_170" type="standard_car" route="W_E" depart="528.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_171" type="standard_car" route="E_N" depart="528.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_172" type="standard_car" route="S_E" depart="528.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_173" type="standard_car" route="E_W" depart="529.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_173" type="standard_car" route="N_W" depart="529.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_174" type="standard_car" route="E_W" depart="530.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_175" type="standard_car" route="E_W" depart="531.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_176" type="standard_car" route="E_N" depart="532.0" departLane="random" departSpeed="10" />
@@ -203,7 +203,7 @@
     <vehicle id="N_S_186" type="standard_car" route="N_S" depart="547.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_187" type="standard_car" route="W_S" depart="549.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_188" type="standard_car" route="S_E" depart="549.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_189" type="standard_car" route="E_W" depart="550.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_189" type="standard_car" route="N_W" depart="550.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_190" type="standard_car" route="N_E" depart="551.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_191" type="standard_car" route="S_E" depart="552.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_192" type="standard_car" route="W_S" depart="554.0" departLane="random" departSpeed="10" />
@@ -216,7 +216,7 @@
     <vehicle id="N_E_199" type="standard_car" route="N_E" depart="571.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_200" type="standard_car" route="S_E" depart="572.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_201" type="standard_car" route="W_E" depart="574.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_202" type="standard_car" route="W_E" depart="576.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_202" type="standard_car" route="W_S" depart="576.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_203" type="standard_car" route="N_E" depart="578.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_204" type="standard_car" route="N_S" depart="580.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_205" type="standard_car" route="S_N" depart="582.0" departLane="random" departSpeed="10" />
@@ -260,7 +260,7 @@
     <vehicle id="W_E_243" type="standard_car" route="W_E" depart="649.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_244" type="standard_car" route="E_W" depart="649.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_245" type="standard_car" route="S_N" depart="650.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_246" type="standard_car" route="S_N" depart="651.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_246" type="standard_car" route="S_E" depart="651.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_247" type="standard_car" route="E_W" depart="652.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_248" type="standard_car" route="W_E" depart="653.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_249" type="standard_car" route="N_E" depart="655.0" departLane="random" departSpeed="10" />
@@ -268,7 +268,7 @@
     <vehicle id="E_N_251" type="standard_car" route="E_N" depart="657.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_252" type="standard_car" route="W_E" depart="657.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_253" type="standard_car" route="N_W" depart="659.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_254" type="standard_car" route="N_S" depart="659.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_254" type="standard_car" route="E_N" depart="659.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_255" type="standard_car" route="W_E" depart="660.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_256" type="standard_car" route="E_W" depart="661.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_257" type="standard_car" route="S_N" depart="662.0" departLane="random" departSpeed="10" />
@@ -277,27 +277,27 @@
     <vehicle id="W_E_260" type="standard_car" route="W_E" depart="667.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_261" type="standard_car" route="E_W" depart="668.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_262" type="standard_car" route="S_N" depart="668.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_263" type="standard_car" route="N_S" depart="669.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_263" type="standard_car" route="E_N" depart="669.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_264" type="standard_car" route="S_N" depart="669.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_265" type="standard_car" route="S_E" depart="670.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_266" type="standard_car" route="E_W" depart="671.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_266" type="standard_car" route="N_W" depart="671.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_267" type="standard_car" route="E_S" depart="673.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_268" type="standard_car" route="N_S" depart="674.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_268" type="standard_car" route="E_N" depart="674.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_269" type="standard_car" route="S_N" depart="674.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_270" type="standard_car" route="N_W" depart="675.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_271" type="standard_car" route="W_E" depart="679.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_272" type="standard_car" route="S_N" depart="680.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_271" type="standard_car" route="W_S" depart="679.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_272" type="standard_car" route="S_E" depart="680.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_273" type="standard_car" route="S_E" depart="680.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_274" type="standard_car" route="E_S" depart="681.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_275" type="standard_car" route="S_N" depart="682.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_275" type="standard_car" route="S_E" depart="682.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_276" type="standard_car" route="N_E" depart="682.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_277" type="standard_car" route="S_W" depart="683.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_278" type="standard_car" route="W_E" depart="683.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_279" type="standard_car" route="S_N" depart="686.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_278" type="standard_car" route="W_S" depart="683.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_279" type="standard_car" route="S_E" depart="686.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_280" type="standard_car" route="E_S" depart="687.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_281" type="standard_car" route="N_S" depart="687.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_281" type="standard_car" route="E_N" depart="687.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_282" type="standard_car" route="W_E" depart="688.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_283" type="standard_car" route="S_N" depart="688.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_283" type="standard_car" route="S_E" depart="688.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_284" type="standard_car" route="E_W" depart="690.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_285" type="standard_car" route="W_E" depart="692.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_286" type="standard_car" route="W_S" depart="693.0" departLane="random" departSpeed="10" />
@@ -329,7 +329,7 @@
     <vehicle id="E_N_312" type="standard_car" route="E_N" depart="729.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_313" type="standard_car" route="E_N" depart="732.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_314" type="standard_car" route="W_E" depart="733.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_315" type="standard_car" route="E_W" depart="734.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_315" type="standard_car" route="N_W" depart="734.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_316" type="standard_car" route="W_E" depart="736.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_317" type="standard_car" route="N_W" depart="737.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_318" type="standard_car" route="E_W" depart="738.0" departLane="random" departSpeed="10" />
@@ -351,7 +351,7 @@
     <vehicle id="W_S_334" type="standard_car" route="W_S" depart="756.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_335" type="standard_car" route="W_E" depart="758.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_336" type="standard_car" route="N_S" depart="758.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_337" type="standard_car" route="S_N" depart="761.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_337" type="standard_car" route="S_E" depart="761.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_338" type="standard_car" route="E_W" depart="761.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_339" type="standard_car" route="W_E" depart="761.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_340" type="standard_car" route="E_W" depart="762.0" departLane="random" departSpeed="10" />
@@ -394,13 +394,13 @@
     <vehicle id="E_N_377" type="standard_car" route="E_N" depart="839.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_378" type="standard_car" route="S_W" depart="841.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_379" type="standard_car" route="N_S" depart="842.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_380" type="standard_car" route="E_W" depart="843.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_380" type="standard_car" route="N_W" depart="843.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_381" type="standard_car" route="N_S" depart="843.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_382" type="standard_car" route="W_N" depart="846.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_383" type="standard_car" route="N_S" depart="847.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_384" type="standard_car" route="E_S" depart="848.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_385" type="standard_car" route="E_S" depart="848.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_386" type="standard_car" route="N_S" depart="854.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_386" type="standard_car" route="E_N" depart="854.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_387" type="standard_car" route="S_N" depart="854.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_388" type="standard_car" route="N_S" depart="854.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_389" type="standard_car" route="E_W" depart="855.0" departLane="random" departSpeed="10" />
@@ -416,7 +416,7 @@
     <vehicle id="N_S_399" type="standard_car" route="N_S" depart="865.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_400" type="standard_car" route="W_S" depart="866.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_401" type="standard_car" route="E_W" depart="866.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_402" type="standard_car" route="E_W" depart="868.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_402" type="standard_car" route="N_W" depart="868.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_403" type="standard_car" route="W_N" depart="868.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_404" type="standard_car" route="W_S" depart="868.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_405" type="standard_car" route="N_S" depart="869.0" departLane="random" departSpeed="10" />
@@ -425,12 +425,12 @@
     <vehicle id="S_W_408" type="standard_car" route="S_W" depart="872.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_409" type="standard_car" route="N_E" depart="873.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_410" type="standard_car" route="N_S" depart="873.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_411" type="standard_car" route="N_S" depart="875.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_412" type="standard_car" route="E_W" depart="876.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_411" type="standard_car" route="E_N" depart="875.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_412" type="standard_car" route="N_W" depart="876.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_413" type="standard_car" route="E_W" depart="877.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_414" type="standard_car" route="N_S" depart="878.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_415" type="standard_car" route="W_E" depart="879.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_416" type="standard_car" route="E_W" depart="884.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_416" type="standard_car" route="N_W" depart="884.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_417" type="standard_car" route="S_N" depart="884.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_418" type="standard_car" route="W_E" depart="885.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_419" type="standard_car" route="E_W" depart="886.0" departLane="random" departSpeed="10" />
@@ -446,8 +446,8 @@
     <vehicle id="W_S_429" type="standard_car" route="W_S" depart="898.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_430" type="standard_car" route="E_W" depart="898.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_431" type="standard_car" route="S_E" depart="901.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_432" type="standard_car" route="E_W" depart="903.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_433" type="standard_car" route="W_E" depart="904.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_432" type="standard_car" route="N_W" depart="903.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_433" type="standard_car" route="W_S" depart="904.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_434" type="standard_car" route="S_W" depart="906.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_435" type="standard_car" route="N_S" depart="911.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_436" type="standard_car" route="S_N" depart="911.0" departLane="random" departSpeed="10" />
@@ -469,7 +469,7 @@
     <vehicle id="W_S_452" type="standard_car" route="W_S" depart="931.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_453" type="standard_car" route="N_S" depart="931.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_454" type="standard_car" route="E_N" depart="932.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_455" type="standard_car" route="N_S" depart="933.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_455" type="standard_car" route="E_N" depart="933.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_456" type="standard_car" route="E_N" depart="934.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_457" type="standard_car" route="N_E" depart="934.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_458" type="standard_car" route="S_E" depart="936.0" departLane="random" departSpeed="10" />
@@ -477,7 +477,7 @@
     <vehicle id="S_N_460" type="standard_car" route="S_N" depart="938.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_461" type="standard_car" route="E_W" depart="940.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_462" type="standard_car" route="N_E" depart="940.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_463" type="standard_car" route="E_W" depart="943.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_463" type="standard_car" route="N_W" depart="943.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_464" type="standard_car" route="S_N" depart="945.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_465" type="standard_car" route="W_S" depart="947.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_466" type="standard_car" route="N_S" depart="948.0" departLane="random" departSpeed="10" />
@@ -487,7 +487,7 @@
     <vehicle id="E_W_470" type="standard_car" route="E_W" depart="950.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_471" type="standard_car" route="N_W" depart="955.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_472" type="standard_car" route="N_S" depart="957.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_473" type="standard_car" route="S_N" depart="957.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_473" type="standard_car" route="S_E" depart="957.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_474" type="standard_car" route="S_N" depart="957.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_475" type="standard_car" route="N_W" depart="958.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_476" type="standard_car" route="W_E" depart="962.0" departLane="random" departSpeed="10" />
@@ -496,10 +496,10 @@
     <vehicle id="N_S_479" type="standard_car" route="N_S" depart="966.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_480" type="standard_car" route="W_S" depart="966.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_481" type="standard_car" route="S_N" depart="967.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_482" type="standard_car" route="E_W" depart="973.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_482" type="standard_car" route="N_W" depart="973.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_483" type="standard_car" route="N_S" depart="974.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_484" type="standard_car" route="E_W" depart="975.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_485" type="standard_car" route="W_E" depart="975.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_485" type="standard_car" route="W_S" depart="975.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_486" type="standard_car" route="N_S" depart="977.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_487" type="standard_car" route="W_E" depart="978.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_488" type="standard_car" route="N_S" depart="983.0" departLane="random" departSpeed="10" />
@@ -511,7 +511,7 @@
     <vehicle id="S_W_494" type="standard_car" route="S_W" depart="998.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_495" type="standard_car" route="N_W" depart="998.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_496" type="standard_car" route="N_S" depart="999.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_497" type="standard_car" route="N_S" depart="1001.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_497" type="standard_car" route="E_N" depart="1001.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_498" type="standard_car" route="W_N" depart="1002.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_499" type="standard_car" route="S_E" depart="1003.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_500" type="standard_car" route="N_W" depart="1005.0" departLane="random" departSpeed="10" />
@@ -521,28 +521,28 @@
     <vehicle id="W_E_504" type="standard_car" route="W_E" depart="1008.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_505" type="standard_car" route="E_W" depart="1011.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_506" type="standard_car" route="S_W" depart="1012.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_507" type="standard_car" route="E_W" depart="1015.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_507" type="standard_car" route="N_W" depart="1015.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_508" type="standard_car" route="E_N" depart="1016.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_509" type="standard_car" route="N_S" depart="1018.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_510" type="standard_car" route="S_E" depart="1020.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_511" type="standard_car" route="N_S" depart="1023.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_511" type="standard_car" route="E_N" depart="1023.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_512" type="standard_car" route="W_E" depart="1025.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_513" type="standard_car" route="E_N" depart="1026.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_514" type="standard_car" route="N_W" depart="1031.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_515" type="standard_car" route="N_S" depart="1031.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_516" type="standard_car" route="E_S" depart="1034.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_517" type="standard_car" route="S_W" depart="1036.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_518" type="standard_car" route="S_N" depart="1039.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_518" type="standard_car" route="S_E" depart="1039.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_519" type="standard_car" route="S_N" depart="1042.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_520" type="standard_car" route="N_S" depart="1042.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_521" type="standard_car" route="N_W" depart="1046.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_522" type="standard_car" route="W_E" depart="1046.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_523" type="standard_car" route="W_E" depart="1048.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_523" type="standard_car" route="W_S" depart="1048.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_524" type="standard_car" route="W_E" depart="1051.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_525" type="standard_car" route="W_E" depart="1055.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_526" type="standard_car" route="W_S" depart="1058.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_527" type="standard_car" route="N_S" depart="1059.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_528" type="standard_car" route="S_N" depart="1067.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_528" type="standard_car" route="S_E" depart="1067.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_529" type="standard_car" route="S_E" depart="1070.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_530" type="standard_car" route="E_W" depart="1070.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_531" type="standard_car" route="S_N" depart="1072.0" departLane="random" departSpeed="10" />
@@ -552,12 +552,12 @@
     <vehicle id="N_S_535" type="standard_car" route="N_S" depart="1083.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_536" type="standard_car" route="S_N" depart="1084.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_537" type="standard_car" route="S_N" depart="1085.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_538" type="standard_car" route="S_N" depart="1088.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_538" type="standard_car" route="S_E" depart="1088.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_539" type="standard_car" route="E_N" depart="1089.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_540" type="standard_car" route="S_W" depart="1091.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_541" type="standard_car" route="W_E" depart="1093.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_542" type="standard_car" route="E_W" depart="1093.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_543" type="standard_car" route="N_S" depart="1098.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_543" type="standard_car" route="E_N" depart="1098.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_544" type="standard_car" route="W_S" depart="1099.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_545" type="standard_car" route="E_W" depart="1100.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_546" type="standard_car" route="W_E" depart="1103.0" departLane="random" departSpeed="10" />
@@ -566,7 +566,7 @@
     <vehicle id="E_W_549" type="standard_car" route="E_W" depart="1106.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_550" type="standard_car" route="E_W" depart="1107.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_551" type="standard_car" route="W_E" depart="1108.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_552" type="standard_car" route="N_S" depart="1109.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_552" type="standard_car" route="E_N" depart="1109.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_553" type="standard_car" route="E_W" depart="1109.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_554" type="standard_car" route="W_S" depart="1109.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_555" type="standard_car" route="E_N" depart="1110.0" departLane="random" departSpeed="10" />
@@ -574,7 +574,7 @@
     <vehicle id="S_E_557" type="standard_car" route="S_E" depart="1111.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_558" type="standard_car" route="E_W" depart="1111.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_559" type="standard_car" route="N_W" depart="1111.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_560" type="standard_car" route="N_S" depart="1114.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_560" type="standard_car" route="E_N" depart="1114.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_561" type="standard_car" route="N_S" depart="1115.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_562" type="standard_car" route="S_E" depart="1116.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_563" type="standard_car" route="S_W" depart="1117.0" departLane="random" departSpeed="10" />
@@ -599,7 +599,7 @@
     <vehicle id="W_E_582" type="standard_car" route="W_E" depart="1142.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_583" type="standard_car" route="N_S" depart="1147.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_584" type="standard_car" route="W_E" depart="1147.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_585" type="standard_car" route="S_N" depart="1155.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_585" type="standard_car" route="S_E" depart="1155.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_586" type="standard_car" route="W_E" depart="1158.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_587" type="standard_car" route="E_N" depart="1159.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_588" type="standard_car" route="S_N" depart="1161.0" departLane="random" departSpeed="10" />
@@ -620,8 +620,8 @@
     <vehicle id="E_W_603" type="standard_car" route="E_W" depart="1178.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_604" type="standard_car" route="S_N" depart="1180.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_605" type="standard_car" route="E_N" depart="1180.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_606" type="standard_car" route="S_N" depart="1182.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_607" type="standard_car" route="N_S" depart="1182.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_606" type="standard_car" route="S_E" depart="1182.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_607" type="standard_car" route="E_N" depart="1182.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_608" type="standard_car" route="W_E" depart="1184.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_609" type="standard_car" route="S_N" depart="1185.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_610" type="standard_car" route="S_W" depart="1185.0" departLane="random" departSpeed="10" />
@@ -641,7 +641,7 @@
     <vehicle id="W_E_624" type="standard_car" route="W_E" depart="1205.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_625" type="standard_car" route="W_E" depart="1206.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_626" type="standard_car" route="N_W" depart="1208.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_627" type="standard_car" route="W_E" depart="1212.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_627" type="standard_car" route="W_S" depart="1212.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_628" type="standard_car" route="W_E" depart="1213.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_629" type="standard_car" route="E_W" depart="1214.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_630" type="standard_car" route="W_E" depart="1215.0" departLane="random" departSpeed="10" />
@@ -658,7 +658,7 @@
     <vehicle id="E_N_641" type="standard_car" route="E_N" depart="1234.0" departLane="random" departSpeed="10" />
     <vehicle id="S_W_642" type="standard_car" route="S_W" depart="1238.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_643" type="standard_car" route="W_S" depart="1240.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_644" type="standard_car" route="N_S" depart="1241.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_644" type="standard_car" route="E_N" depart="1241.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_645" type="standard_car" route="W_E" depart="1245.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_646" type="standard_car" route="N_S" depart="1246.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_647" type="standard_car" route="W_S" depart="1248.0" departLane="random" departSpeed="10" />
@@ -676,13 +676,13 @@
     <vehicle id="E_N_659" type="standard_car" route="E_N" depart="1266.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_660" type="standard_car" route="N_W" depart="1267.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_661" type="standard_car" route="N_W" depart="1269.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_662" type="standard_car" route="N_S" depart="1275.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_662" type="standard_car" route="E_N" depart="1275.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_663" type="standard_car" route="S_N" depart="1276.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_664" type="standard_car" route="N_W" depart="1277.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_665" type="standard_car" route="W_S" depart="1277.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_666" type="standard_car" route="E_W" depart="1278.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_666" type="standard_car" route="N_W" depart="1278.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_667" type="standard_car" route="W_E" depart="1280.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_668" type="standard_car" route="N_S" depart="1281.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_668" type="standard_car" route="E_N" depart="1281.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_669" type="standard_car" route="N_S" depart="1281.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_670" type="standard_car" route="E_W" depart="1282.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_671" type="standard_car" route="E_N" depart="1283.0" departLane="random" departSpeed="10" />
@@ -704,16 +704,16 @@
     <vehicle id="N_E_687" type="standard_car" route="N_E" depart="1315.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_688" type="standard_car" route="N_S" depart="1317.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_689" type="standard_car" route="W_E" depart="1320.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_690" type="standard_car" route="S_N" depart="1322.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_690" type="standard_car" route="S_E" depart="1322.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_691" type="standard_car" route="W_N" depart="1325.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_692" type="standard_car" route="E_W" depart="1326.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_693" type="standard_car" route="E_W" depart="1326.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_693" type="standard_car" route="N_W" depart="1326.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_694" type="standard_car" route="S_N" depart="1327.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_695" type="standard_car" route="W_S" depart="1327.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_696" type="standard_car" route="W_E" depart="1330.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_697" type="standard_car" route="W_E" depart="1333.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_698" type="standard_car" route="S_N" depart="1334.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_699" type="standard_car" route="S_N" depart="1334.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_699" type="standard_car" route="S_E" depart="1334.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_700" type="standard_car" route="E_N" depart="1335.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_701" type="standard_car" route="S_N" depart="1336.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_702" type="standard_car" route="N_S" depart="1344.0" departLane="random" departSpeed="10" />
@@ -733,14 +733,14 @@
     <vehicle id="E_S_716" type="standard_car" route="E_S" depart="1362.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_717" type="standard_car" route="N_E" depart="1364.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_718" type="standard_car" route="N_E" depart="1365.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_719" type="standard_car" route="E_W" depart="1365.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_720" type="standard_car" route="N_S" depart="1366.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_719" type="standard_car" route="N_W" depart="1365.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_720" type="standard_car" route="E_N" depart="1366.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_721" type="standard_car" route="W_E" depart="1367.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_722" type="standard_car" route="N_W" depart="1370.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_723" type="standard_car" route="N_W" depart="1379.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_724" type="standard_car" route="N_S" depart="1380.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_725" type="standard_car" route="W_E" depart="1382.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_726" type="standard_car" route="N_S" depart="1384.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_726" type="standard_car" route="E_N" depart="1384.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_727" type="standard_car" route="N_W" depart="1384.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_728" type="standard_car" route="W_E" depart="1385.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_729" type="standard_car" route="E_W" depart="1386.0" departLane="random" departSpeed="10" />
@@ -754,7 +754,7 @@
     <vehicle id="W_N_737" type="standard_car" route="W_N" depart="1395.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_738" type="standard_car" route="S_N" depart="1397.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_739" type="standard_car" route="E_W" depart="1400.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_740" type="standard_car" route="E_W" depart="1403.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_740" type="standard_car" route="N_W" depart="1403.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_741" type="standard_car" route="N_S" depart="1404.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_742" type="standard_car" route="N_S" depart="1406.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_743" type="standard_car" route="E_W" depart="1409.0" departLane="random" departSpeed="10" />
@@ -764,26 +764,26 @@
     <vehicle id="E_N_747" type="standard_car" route="E_N" depart="1414.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_748" type="standard_car" route="S_N" depart="1419.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_749" type="standard_car" route="E_W" depart="1421.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_750" type="standard_car" route="W_E" depart="1422.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_750" type="standard_car" route="W_S" depart="1422.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_751" type="standard_car" route="S_N" depart="1423.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_752" type="standard_car" route="E_N" depart="1424.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_753" type="standard_car" route="W_E" depart="1425.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_754" type="standard_car" route="S_N" depart="1427.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_755" type="standard_car" route="E_W" depart="1427.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_755" type="standard_car" route="N_W" depart="1427.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_756" type="standard_car" route="S_N" depart="1434.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_757" type="standard_car" route="N_W" depart="1435.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_758" type="standard_car" route="E_N" depart="1437.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_759" type="standard_car" route="W_E" depart="1438.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_759" type="standard_car" route="W_S" depart="1438.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_760" type="standard_car" route="W_E" depart="1441.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_761" type="standard_car" route="S_N" depart="1442.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_762" type="standard_car" route="N_W" depart="1443.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_763" type="standard_car" route="W_N" depart="1444.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_764" type="standard_car" route="E_W" depart="1447.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_765" type="standard_car" route="E_S" depart="1457.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_766" type="standard_car" route="S_N" depart="1460.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_766" type="standard_car" route="S_E" depart="1460.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_767" type="standard_car" route="S_N" depart="1466.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_768" type="standard_car" route="W_N" depart="1467.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_769" type="standard_car" route="E_W" depart="1469.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_769" type="standard_car" route="N_W" depart="1469.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_770" type="standard_car" route="N_S" depart="1469.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_771" type="standard_car" route="E_N" depart="1471.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_772" type="standard_car" route="S_N" depart="1472.0" departLane="random" departSpeed="10" />
@@ -794,17 +794,17 @@
     <vehicle id="S_N_777" type="standard_car" route="S_N" depart="1487.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_778" type="standard_car" route="N_S" depart="1489.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_779" type="standard_car" route="W_E" depart="1489.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_780" type="standard_car" route="N_S" depart="1490.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_780" type="standard_car" route="E_N" depart="1490.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_781" type="standard_car" route="W_S" depart="1504.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_782" type="standard_car" route="E_W" depart="1506.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_783" type="standard_car" route="S_E" depart="1508.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_784" type="standard_car" route="N_S" depart="1514.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_785" type="standard_car" route="W_S" depart="1514.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_786" type="standard_car" route="E_W" depart="1516.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_786" type="standard_car" route="N_W" depart="1516.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_787" type="standard_car" route="S_N" depart="1517.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_788" type="standard_car" route="N_W" depart="1522.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_789" type="standard_car" route="W_E" depart="1525.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_790" type="standard_car" route="N_S" depart="1527.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_789" type="standard_car" route="W_S" depart="1525.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_790" type="standard_car" route="E_N" depart="1527.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_791" type="standard_car" route="E_N" depart="1528.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_792" type="standard_car" route="W_E" depart="1528.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_793" type="standard_car" route="S_N" depart="1530.0" departLane="random" departSpeed="10" />
@@ -830,7 +830,7 @@
     <vehicle id="N_S_813" type="standard_car" route="N_S" depart="1576.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_814" type="standard_car" route="S_N" depart="1578.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_815" type="standard_car" route="E_W" depart="1581.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_816" type="standard_car" route="E_W" depart="1582.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_816" type="standard_car" route="N_W" depart="1582.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_817" type="standard_car" route="E_W" depart="1584.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_818" type="standard_car" route="N_W" depart="1586.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_819" type="standard_car" route="W_E" depart="1587.0" departLane="random" departSpeed="10" />
@@ -840,7 +840,7 @@
     <vehicle id="W_S_823" type="standard_car" route="W_S" depart="1598.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_824" type="standard_car" route="N_S" depart="1599.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_825" type="standard_car" route="W_E" depart="1599.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_826" type="standard_car" route="W_E" depart="1605.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_826" type="standard_car" route="W_S" depart="1605.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_827" type="standard_car" route="W_N" depart="1609.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_828" type="standard_car" route="E_S" depart="1616.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_829" type="standard_car" route="N_W" depart="1618.0" departLane="random" departSpeed="10" />
@@ -852,7 +852,7 @@
     <vehicle id="E_W_835" type="standard_car" route="E_W" depart="1634.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_836" type="standard_car" route="W_S" depart="1635.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_837" type="standard_car" route="W_S" depart="1636.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_838" type="standard_car" route="E_W" depart="1637.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_838" type="standard_car" route="N_W" depart="1637.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_839" type="standard_car" route="S_E" depart="1638.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_840" type="standard_car" route="E_S" depart="1641.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_841" type="standard_car" route="E_W" depart="1643.0" departLane="random" departSpeed="10" />
@@ -860,7 +860,7 @@
     <vehicle id="S_N_843" type="standard_car" route="S_N" depart="1649.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_844" type="standard_car" route="E_S" depart="1649.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_845" type="standard_car" route="W_E" depart="1657.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_846" type="standard_car" route="W_E" depart="1658.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_846" type="standard_car" route="W_S" depart="1658.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_847" type="standard_car" route="E_W" depart="1659.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_848" type="standard_car" route="S_E" depart="1661.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_849" type="standard_car" route="W_N" depart="1661.0" departLane="random" departSpeed="10" />
@@ -887,7 +887,7 @@
     <vehicle id="W_E_870" type="standard_car" route="W_E" depart="1736.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_871" type="standard_car" route="N_E" depart="1743.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_872" type="standard_car" route="N_S" depart="1748.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_873" type="standard_car" route="W_E" depart="1751.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_873" type="standard_car" route="W_S" depart="1751.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_874" type="standard_car" route="E_W" depart="1754.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_875" type="standard_car" route="E_W" depart="1757.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_876" type="standard_car" route="N_S" depart="1763.0" departLane="random" departSpeed="10" />
@@ -897,7 +897,7 @@
     <vehicle id="E_W_880" type="standard_car" route="E_W" depart="1776.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_881" type="standard_car" route="S_N" depart="1783.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_882" type="standard_car" route="S_E" depart="1783.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_883" type="standard_car" route="S_N" depart="1788.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_883" type="standard_car" route="S_E" depart="1788.0" departLane="random" departSpeed="10" />
     <vehicle id="S_E_884" type="standard_car" route="S_E" depart="1789.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_885" type="standard_car" route="E_W" depart="1789.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_886" type="standard_car" route="N_S" depart="1793.0" departLane="random" departSpeed="10" />
@@ -925,8 +925,8 @@
     <vehicle id="S_N_908" type="standard_car" route="S_N" depart="1882.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_909" type="standard_car" route="W_S" depart="1884.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_910" type="standard_car" route="W_E" depart="1884.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_911" type="standard_car" route="E_W" depart="1885.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_912" type="standard_car" route="N_S" depart="1888.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_911" type="standard_car" route="N_W" depart="1885.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_912" type="standard_car" route="E_N" depart="1888.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_913" type="standard_car" route="W_S" depart="1894.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_914" type="standard_car" route="S_N" depart="1896.0" departLane="random" departSpeed="10" />
     <vehicle id="W_S_915" type="standard_car" route="W_S" depart="1910.0" departLane="random" departSpeed="10" />
@@ -971,17 +971,17 @@
     <vehicle id="S_N_954" type="standard_car" route="S_N" depart="2101.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_955" type="standard_car" route="N_S" depart="2114.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_956" type="standard_car" route="E_W" depart="2121.0" departLane="random" departSpeed="10" />
-    <vehicle id="S_N_957" type="standard_car" route="S_N" depart="2129.0" departLane="random" departSpeed="10" />
+    <vehicle id="S_E_957" type="standard_car" route="S_E" depart="2129.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_958" type="standard_car" route="E_N" depart="2134.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_959" type="standard_car" route="E_S" depart="2135.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_960" type="standard_car" route="E_W" depart="2140.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_961" type="standard_car" route="N_E" depart="2140.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_962" type="standard_car" route="N_S" depart="2142.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_963" type="standard_car" route="N_S" depart="2160.0" departLane="random" departSpeed="10" />
-    <vehicle id="E_W_964" type="standard_car" route="E_W" depart="2192.0" departLane="random" departSpeed="10" />
+    <vehicle id="N_W_964" type="standard_car" route="N_W" depart="2192.0" departLane="random" departSpeed="10" />
     <vehicle id="W_E_965" type="standard_car" route="W_E" depart="2219.0" departLane="random" departSpeed="10" />
     <vehicle id="E_N_966" type="standard_car" route="E_N" depart="2225.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_967" type="standard_car" route="N_S" depart="2233.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_967" type="standard_car" route="E_N" depart="2233.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_968" type="standard_car" route="E_W" depart="2233.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_969" type="standard_car" route="E_W" depart="2235.0" departLane="random" departSpeed="10" />
     <vehicle id="W_N_970" type="standard_car" route="W_N" depart="2271.0" departLane="random" departSpeed="10" />
@@ -989,7 +989,7 @@
     <vehicle id="S_N_972" type="standard_car" route="S_N" depart="2281.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_973" type="standard_car" route="N_S" depart="2289.0" departLane="random" departSpeed="10" />
     <vehicle id="N_S_974" type="standard_car" route="N_S" depart="2297.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_975" type="standard_car" route="W_E" depart="2321.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_975" type="standard_car" route="W_S" depart="2321.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_976" type="standard_car" route="E_S" depart="2321.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_977" type="standard_car" route="E_W" depart="2325.0" departLane="random" departSpeed="10" />
     <vehicle id="E_S_978" type="standard_car" route="E_S" depart="2329.0" departLane="random" departSpeed="10" />
@@ -999,7 +999,7 @@
     <vehicle id="S_E_982" type="standard_car" route="S_E" depart="2362.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_983" type="standard_car" route="E_W" depart="2400.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_984" type="standard_car" route="S_N" depart="2442.0" departLane="random" departSpeed="10" />
-    <vehicle id="W_E_985" type="standard_car" route="W_E" depart="2454.0" departLane="random" departSpeed="10" />
+    <vehicle id="W_S_985" type="standard_car" route="W_S" depart="2454.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_986" type="standard_car" route="E_W" depart="2457.0" departLane="random" departSpeed="10" />
     <vehicle id="N_E_987" type="standard_car" route="N_E" depart="2471.0" departLane="random" departSpeed="10" />
     <vehicle id="E_W_988" type="standard_car" route="E_W" depart="2502.0" departLane="random" departSpeed="10" />
@@ -1013,5 +1013,5 @@
     <vehicle id="S_N_996" type="standard_car" route="S_N" depart="2724.0" departLane="random" departSpeed="10" />
     <vehicle id="N_W_997" type="standard_car" route="N_W" depart="2767.0" departLane="random" departSpeed="10" />
     <vehicle id="S_N_998" type="standard_car" route="S_N" depart="2893.0" departLane="random" departSpeed="10" />
-    <vehicle id="N_S_999" type="standard_car" route="N_S" depart="3018.0" departLane="random" departSpeed="10" />
+    <vehicle id="E_N_999" type="standard_car" route="E_N" depart="3018.0" departLane="random" departSpeed="10" />
 </routes>
