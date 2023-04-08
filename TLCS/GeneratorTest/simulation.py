@@ -163,7 +163,7 @@ class simulation:
     def set_yellow(self, phase, yellow_action):
         yellow_phase_code = phase * 2 + 1
         traci.trafficlight.setPhase("TL", yellow_phase_code)
-        self.simulate_step(yellow_action + 2)
+        self.simulate_step(5)
 
     def set_green(self, phase):
         green_phase_code = phase * 2
