@@ -4,6 +4,7 @@ import random
 import timeit
 from MyGenerator import TrafficGenerator
 from MyGenerator import set_sumo
+from MyGenerator import set_sumo_test
 from DQN_Model import DQNModel
 from MemoryPool import Memory
 import math
@@ -11,6 +12,7 @@ import os
 import torch
 import sys
 from sumolib import checkBinary
+import xml.etree.ElementTree as ET
 
 # 进车道的路网id 4*3 = 12
 LANE = ['E2TL_0', 'E2TL_1', 'E2TL_2',
@@ -39,6 +41,8 @@ class simulation:
         self._wait_time_store = []
         self._sum_lenth_store = []
         self._sum_brake_store = []
+        self._avg_wait_time_store = []
+        self._avg_length_store = []
         self._training_epochs = training_epochs
         self._batch_size = batch_size
         self._gamma = gamma
@@ -52,6 +56,7 @@ class simulation:
         self._sum_lenth = 0
         self._sum_brake = 0
         self._step = 0
+        self._count = 0
         traci.start(self._sumo_cmd)
         last_state = 0
         last_phase_action = 0
@@ -89,12 +94,23 @@ class simulation:
         traci.close()
         print(f"==================episode {episode}=======================")
         simulation_time = round(timeit.default_timer() - start_time, 1)
-        print(f'SIMULATION simulation_time:{simulation_time}，sum_reward:{self._sum_reward},wait_time:{self._sum_wait_time},sum_lenth:{self._sum_lenth},sum_brake:{self._sum_brake}')
+        print(f'SIMULATION simulation_time:{simulation_time}，sum_reward:{self._sum_reward},wait_time:{self._sum_wait_time},sum_lenth:{self._sum_lenth},sum_brake:{self._sum_brake}',end=" ")
         # 保存数据
         self._reward_store.append(self._sum_reward)
         self._wait_time_store.append(self._sum_wait_time)
         self._sum_lenth_store.append(self._sum_lenth)
         self._sum_brake_store.append(self._sum_brake)
+        # 加载XML文件
+        tree = ET.parse('my_output_file.xml')
+        # 获取所有tripinfos元素
+        tripinfos = tree.getroot()
+        # 计算waitingTime属性的平均值
+        waiting_times = [float(tripinfo.get('waitingTime')) for tripinfo in tripinfos]
+        average_waiting_time = sum(waiting_times) / len(waiting_times)
+        print("avg_wait:", average_waiting_time,end=" ")
+        self._avg_wait_time_store.append(average_waiting_time)
+        self._avg_length_store.append(self._sum_lenth/self._count)
+        print(f'avg_length:{self._sum_lenth/self._count}')
         # 训练
         start_time = timeit.default_timer()
         for _ in range(self._training_epochs):
@@ -134,6 +150,7 @@ class simulation:
         :param last_wait_time: 上一时刻等待时间
         '''
         # 系数
+        self._count += 1
         k1, k2, k3 = -0.2, -0.2, -1
         # 排队长度, 通过E2检测器获取
         length, wait_time_next, num = 0, 0, 0
@@ -168,7 +185,7 @@ class simulation:
     def set_green(self, phase):
         green_phase_code = phase * 2
         traci.trafficlight.setPhase("TL", green_phase_code)
-        self.simulate_step(6)
+        self.simulate_step(10)
 
     def simulate_step(self, step):
         if (self._step + step > self._max_steps):
@@ -219,7 +236,7 @@ max_steps, n_cars_generated = 3600, 1000
 traffic_generator = TrafficGenerator(max_steps, n_cars_generated)
 model = DQNModel()
 memory = Memory(600, 30000)
-sumo_cmd = set_sumo(gui=False, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
+sumo_cmd = set_sumo_test(gui=False, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
 simulation = simulation(model, memory, sumo_cmd, max_steps, traffic_generator, train_epochs, batch_size, gamma,'cuda')
 
 
@@ -229,8 +246,12 @@ for episode in range(1, total_episode):
 
 import time
 # reward, wait_time, brake_num, length
-np_a = np.array([simulation._reward_store,simulation._wait_time_store,simulation._sum_brake_store,simulation._sum_lenth_store]).T
+np_a = np.array([simulation._reward_store,
+                 simulation._wait_time_store,
+                 simulation._sum_brake_store,
+                 simulation._sum_lenth_store,
+                 simulation._avg_wait_time_store,
+                 simulation._avg_length_store]).T
 time_ = time.time()
-np.savetxt(f"foo1{time_}.csv", np_a, delimiter=",")
-
-torch.save(model, f'model/model_name{time.time()}.pth')
+np.savetxt(f"{time_}.csv", np_a, delimiter=",")
+torch.save(model, f'model/model_name{time_}.pth')

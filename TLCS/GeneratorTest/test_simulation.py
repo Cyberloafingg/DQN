@@ -4,6 +4,7 @@ import random
 import timeit
 from MyGenerator import TrafficGenerator
 from MyGenerator import set_sumo
+from MyGenerator import set_sumo_test
 from DQN_Model import DQNModel
 from MemoryPool import Memory
 import math
@@ -123,11 +124,14 @@ class simulation:
             wait_time_next += traci.lane.getWaitingTime(LANE[i])
         r_wait_time = wait_time_next - last_wait_time
         # 刹车数量之和
+        # print(traci.vehicle.getIDList())
         for car in traci.vehicle.getIDList():
             if traci.vehicle.getLaneID(car) in LANE and traci.vehicle.getAcceleration(car) < 0:
                 num += 1
         reward = k1 * length + k2 * r_wait_time + k3 * num
-        # print(f'length:{length * k1},r_wait_time :{r_wait_time * k2},num:{num * k3},reward:{reward}')
+        print(f'length:{length},r_wait_time :{wait_time_next},num:{num},reward:{reward}')
+        # 平均排队长度：sum_length/记录的求reward次数
+        # 平均等待时间：sum_wait_time/记录的求reward次数
         return reward, wait_time_next, length, num
 
     def get_action(self, state):
@@ -155,14 +159,14 @@ class simulation:
 
 
 
-total_episode = 150
+total_episode = 2
 batch_size = 200
 train_epochs = 500
 gamma = 0.9
-max_steps, n_cars_generated = 3600, 1000
+max_steps, n_cars_generated = 5400, 1000
 traffic_generator = TrafficGenerator(max_steps, n_cars_generated)
 model = torch.load('model/model_name1680959135.2242284.pth')
-sumo_cmd = set_sumo(gui=False, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
+sumo_cmd = set_sumo_test(gui=True, sumocfg_file_name='sumo_config.sumocfg', max_steps=max_steps)
 simulation = simulation(model, sumo_cmd, max_steps, traffic_generator, train_epochs, batch_size, gamma,'cuda')
 
 for episode in range(1, total_episode):
